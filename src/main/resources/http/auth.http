@@ -1,0 +1,32 @@
+### registration
+POST localhost:7070/auth/registration
+Content-Type: application/json
+
+{
+  "name": "Adminjon",
+  "surname": "admin",
+  "email": "mydream7usa@gmail.com",
+  "password": "1234"
+}
+
+### login
+POST localhost:7070/auth/authorization
+Content-Type: application/json
+
+{
+  "email": "mydream7usa@gmail.com",
+  "password": "2022"
+}
+
+### login
+POST localhost:7070/auth/authorization
+Content-Type: application/json
+
+{
+  "email": "adminceek@gmail.com",
+  "password": "Grechka4kg"
+}
+
+
+### init admin
+GET localhost:7070/init/admin
